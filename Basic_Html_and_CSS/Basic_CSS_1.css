@@ -1,0 +1,41 @@
+    body{
+        display: flex;
+    }
+    div, .lorem{
+        color:blueviolet;
+        background: black;
+        margin: 2% 2%;
+        
+    }
+    #box1{
+        color:rgba(82, 196, 16, 0.829);
+        background:rgb(102, 98, 98);
+        align-items: center;
+        text-align:justify;
+        border:dotted black 5px;
+        padding: 2%;
+       
+    }
+    #box2{
+        text-align: right;
+        padding:5%;
+    }
+
+    #box3{
+        color:purple;
+        text-align:center;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 5%;
+        padding:3% 2% 5% 2%;
+        background:pink;
+    }
+    p {
+        color: green;
+        text-align:right;
+        margin: 15% auto;
+        padding: 5%;
+        background:yellow;
+        border-radius:50%;
+        border: solid brown 5px;
+        
+    }
