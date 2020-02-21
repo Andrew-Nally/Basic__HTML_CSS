@@ -1,0 +1,6 @@
+An HTML entity is string that begins with & and end in ;
+They are used to display reserved and or invisible characters which coud be interpreted as HTM 
+code
+
+Text Shadow property is a property that puts a shadow on the text chosen.
+7 different types of text shadow: h-shadow, v-shadow, blur-radius, color, none, initial, inherit.

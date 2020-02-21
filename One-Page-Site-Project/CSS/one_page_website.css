@@ -1,0 +1,60 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(156, 2, 149, 0.897);
+    letter-spacing: .3em;
+    font-size:1.2em;
+    
+}
+nav{
+    display:flex;
+    letter-spacing: 0;
+    text-align:center;
+    justify-content: space-evenly;
+}
+
+img{
+    height:200px;
+
+}
+p{
+    color:rgba(18, 187, 209, 0.863);
+}
+footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    letter-spacing: 0;
+    color:rgba(255, 255, 0, 0.712);
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+
+}
+.icon{
+    position:relative;
+    top:15px;
+    height:60px;
+    width:auto;
+} 
+form {
+    display:flex; 
+   position: relative;
+   left:33%;
+} 
+ .fan-club{
+    margin: .5%;
+    border:rgb(6, 172, 70) solid 6px;
+    border-radius:10px;
+    color:rgba(156, 2, 149, 0.897);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:rgba(18, 187, 209, 0.863);
+    text-align:center;
+    flex-direction: column;
+    font-size: 1.5em;
+    font-style: oblique;
+    width:30%;
+
+}
