@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div id="myExample">
+<h2> Ajax Example </h2>
+</div>
+<div class="content2" id="content2">
+<button type="button2" value="Practice2" id="button2" onclick="runAjax2()">Click This</button>
+</div>
+   
+
+<script type="text/javascript">
+            var xhttp = new XMLHttpRequest();
+            xhttp.open('GET', 'content2.html');
+            xhttp.onreadystatechange =  function(){
+                if(xhttp.readyState = 4) {
+                    document.getElementById("content2").innerHTML = 
+                    xhttp.ResponseText;
+                }
+                }
+           function runAjax2() {
+               xhttp.send() ;
+                document.getElementById('button2').style.display = 'none';
+           }
+
+    </script>
+
+
+    <div class="main">
+        <h2> Get The Latest Content: </h2>
+    </div>
+ <div class='content' id="content">
+     <input type="button" class="button" value="Get Content" id="btn_content" onclick="getContent();"/>
+</div>
+
+<script type="text/javascript">
+/*step 1. Create the XMLHttpRequest();*/
+var ajax = new XMLHttpRequest();
+/*step 2. Call on the AJAX OPEN();*/
+ajax.open('GET','content.html');
+/*step 3. Define on the AJAX Callback*/
+ajax.onreadystatechange =  function() {
+    if(ajax.readyState = 4) {
+        document.getElementById('content').innerHTML = ajax.ResponseText;
+    }
+}
+/*step 4: send on the AJAX request () Send());*/
+ function getContent() {
+     ajax.send() ;
+     document.getElementById('btn_content').style.display = 'none';
+    
+ }
+
+
+</script>
+</body>
