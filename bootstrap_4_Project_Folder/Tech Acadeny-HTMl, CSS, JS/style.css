@@ -1,0 +1,19 @@
+#header h1, .jumbotron p, #showtimes {
+	color: #FFF;
+}
+
+.col-md-4 img {
+	border-radius: 5px;
+}
+
+.card-group {
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 999px) {
+	.navbar-brand {
+		display: none;
+		visibility: hidden;
+	}
+}
